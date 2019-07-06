@@ -1,0 +1,194 @@
+.backwards-bio {
+  text-align: right; }
+
+.bio-block {
+  margin: 2em 0; }
+
+#team-title {
+  display: block;
+  font-size: 2.8em;
+  border-bottom: 3px dashed #333;
+  padding-bottom: .67em;
+  padding-left: 10%; }
+
+.pet-wrapper {
+  display: block; }
+
+#pet-button {
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 0 0 0 25px;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 1.2em;
+  margin-right: 10px;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.58);
+  border: none;
+  font-family: "ratio", sans-serif;
+  font-weight: bold;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite; }
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%; }
+  50% {
+    background-position: 100% 19%; }
+  100% {
+    background-position: 0% 82%; } }
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%; }
+  50% {
+    background-position: 100% 19%; }
+  100% {
+    background-position: 0% 82%; } }
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%; }
+  50% {
+    background-position: 100% 19%; }
+  100% {
+    background-position: 0% 82%; } }
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%; }
+  50% {
+    background-position: 100% 19%; }
+  100% {
+    background-position: 0% 82%; } }
+.stark-picture {
+  position: relative; }
+
+#pet-hand {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  margin: 0 auto;
+  font-size: 3.5em;
+  transform: rotate(110deg);
+  padding-top: 49px;
+  z-index: 11; }
+
+.animate-hand {
+  animation: pet 3s ease 1; }
+
+@keyframes pet {
+  0% {
+    top: 0;
+    opacity: 0; }
+  25% {
+    top: 16%;
+    opacity: 1; }
+  35% {
+    top: 6%;
+    opacity: 1; }
+  45% {
+    top: 16%;
+    opacity: 1; }
+  55% {
+    top: 6%;
+    opacity: 1; }
+  65% {
+    top: 16%;
+    opacity: 1; }
+  75% {
+    top: 6%;
+    opacity: 1; }
+  100% {
+    top: 0;
+    opacity: 0; } }
+#contact-title {
+  text-align: center;
+  font-size: 2.8em;
+  padding-bottom: .67em; }
+
+#contact-form {
+  display: block;
+  margin: 0 auto 50px;
+  max-width: 800px;
+  font-size: 0;
+  box-sizing: border-box; }
+
+label {
+  font-size: 0; }
+
+input {
+  display: inline-block;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #333;
+  font-family: "ratio", sans-serif;
+  font-size: 18px;
+  padding: 25px 15px;
+  color: #fff;
+  width: 49%; }
+
+#email-input {
+  margin-left: 2%; }
+
+#message-input {
+  display: block;
+  width: 100%;
+  margin-top: 20px; }
+
+#input-submit {
+  position: relative;
+  top: 0;
+  display: block;
+  margin: 0 auto;
+  background-color: #2a2e35;
+  margin-top: 50px;
+  border-radius: 0 0 0 25px;
+  font-size: 25px;
+  padding: 20px;
+  box-shadow: 0 4px 10px -3px #010101;
+  transition: box-shadow .3s ease-out, top .3s ease-out, background .3s ease-out;
+  cursor: pointer; }
+  #input-submit:hover {
+    top: 4px;
+    box-shadow: 0 0 10px -3px #010101;
+    background-color: #1c1f23; }
+
+@media screen and (max-width: 767px) {
+  #team-title {
+    padding-left: 0;
+    text-align: center; }
+
+  #pet-button {
+    display: block;
+    margin: 0 auto; }
+
+  .pet-wrapper span {
+    display: block;
+    margin: 25px 0;
+    text-align: center; }
+
+  #contact-title {
+    font-size: 2em;
+    margin-bottom: 0; }
+
+  #contact-form {
+    margin-top: 0; }
+
+  input {
+    display: block;
+    width: 100%;
+    margin: 10px 0 0 0; }
+
+  #email-input {
+    margin-left: 0; }
+
+  #message-input {
+    margin-top: 10px; }
+
+  #input-submit {
+    margin-top: 40px;
+    padding: 16px; } }
+
+/*# sourceMappingURL=about-contact-style.css.map */
