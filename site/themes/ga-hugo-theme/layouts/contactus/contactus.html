@@ -1,29 +1,22 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
 	<meta name="generator" content="Hugo 0.53" />
-
-    <!-- Search Functionality Plugin-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="tipuesearch/tipuesearch_content.js"></script>
-    <link rel="stylesheet" href="tipuesearch/css/tipuesearch.css">
-    <script src="tipuesearch/tipuesearch_set.js"></script>
-    <script src="tipuesearch/tipuesearch.min.js"></script>
-
-
-    <link rel="prefetch" as="script" href="/components/wc.1562247598724.js">
-    <link rel="stylesheet" href="https://use.typekit.net/rcr1opg.css">
-    <script src="/design/js/app.5d7ce5be1323947ba8c1.js"></script>
-    <link rel="stylesheet" type="text/css" href="/design/css/app.5d7ce5be1323947ba8c1.css">
-    <script defer src="/components/wc.1562247598724.js"></script>
-    <script src="javascriptstuff.js"></script>
-    <link rel="stylesheet" type="text/css" href="designcss.css">
-    <link rel="stylesheet" type="text/css" href="css/custom-style.css">
-    <script src="js/custom-js.js" defer></script>
-
     
+    <link rel="prefetch" as="script" href="../components/wc.1562247598724.js">
+    <link rel="stylesheet" href="https://use.typekit.net/rcr1opg.css">
+    <script src="../design/js/app.5d7ce5be1323947ba8c1.js"></script>
+    <link rel="stylesheet" type="text/css" href="../design/css/app.5d7ce5be1323947ba8c1.css">
+    <script defer src="../components/wc.1562247598724.js"></script>
+    <script src="../javascriptstuff.js"></script>
+    <link rel="stylesheet" type="text/css" href="../designcss.css">
+    <link rel="stylesheet" type="text/css" href="../css/custom-style.css">
+    <link rel="stylesheet" type="text/css" href="../css/about-contact-style.css">
+
+    <!-- Email Pluggin -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="../js/custom-js.js" defer></script>
+
     <title>Software Lore</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -44,7 +37,6 @@
 
     <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
     <meta name="theme-color" content="#454e56">
-
 </head>
  
 
@@ -81,79 +73,25 @@
     </div>
 </nav>
 
-    <main role="main">
-      
-<!-- Top Section -->
+<main role="main">
 
-<div id="home-top-section" class="row">
-    <div class="col-xs-12 col-md-6" style="justify-content: space-between; display: flex; flex-direction: column;">
-        <h1>The best software 💾 reviews 📡 on the web</h1>
-        <p class="text-lg">
-            Check out this weeks top <strong class="text-contrast">4</strong> most popular article
-            over on the right side of your screen
-            <strong class="text-contrast">Hover over any of the 4 buttons --></strong>      
-            
-        </p>
+  <h1 id="contact-title" class="border-bottom">Get in touch with us</h1>
+  <form id="contact-form" onsubmit="contactFunction()">
+    <label for="name-input">Name</label>
+    <input type="text" name="nameInput" id="name-input" placeholder="Your Name (required)" required>
+    <label for="email-input">Email</label>
+    <input type="email" name="emailInput" id="email-input" placeholder="Your E-mail (required)" required>
+    <label for="message-input">Message</label>
+    <input type="text" name="messageInput" id="message-input" placeholder="Your Message" required>
+    <input type="submit" id="input-submit">
+  </form>
 
-        <div id="search" class="tipue_search_group">
-            <div class="search-icon">🔍</div>
-            <label for="search">Search Bar</label>
-            <input type="text" name="search" id="tipue_search_input" placeholder="Search Reviews...">
-        </div>
-    </div>
-  <div id="home-top-right" class="col-xs-12 col-md-6">
-    <div class="category-wrapper">
-        <div class="row">
-            <!-- <div class="category-button">
-                <span class="category-icon">💼</span>
-                <div class="expand-box">
-                    <span class="category-name">Category</span>
-                </div>
-            </div> -->
-            <div class="category-button">
-                <div class="outer-box">
-                    <span class="category-icon">💾</span>
-                </div>
-                <div class="inner-box">
-                    <span class="category-name">Category</span>
-                </div>
-            </div>
-            <div class="category-button">
-                <div class="outer-box">
-                    <span class="category-icon">📡</span>
-                </div>
-                <div class="inner-box">
-                    <span class="category-name">Category</span>
-                </div>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="category-button">
-                <div class="outer-box">
-                    <span class="category-icon">💼</span>
-                </div>
-                <div class="inner-box">
-                    <span class="category-name">Category</span>
-                </div>
-            </div>
-            <div class="category-button">
-                <div class="outer-box">
-                    <span class="category-icon">🔍</span>
-                </div>
-                <div class="inner-box">
-                    <span class="category-name">Category</span>
-                </div>
-            </div>
-        </div>
-    </div>
-  </div>
   
-</div>
 
-<hr />
+      <hr>
 
-  <footer>
+      
+      <footer>
         <div class="github-link">Hopefully you've enjoyed our content. Want to contact us? <a href="/contact-us.html">Send us an email on our contact form.</a></div>
     
         <div>
@@ -173,6 +111,47 @@
             
         </div>
     </footer>
+<script>
+  console.log(window.location.href);
+  function parseURLParams(url) {
+      var queryStart = url.indexOf("?") + 1,
+          queryEnd   = url.indexOf("#") + 1 || url.length + 1,
+          query = url.slice(queryStart, queryEnd - 1),
+          pairs = query.replace(/\+/g, " ").split("&"),
+          parms = {}, i, n, v, nv;
+
+      if (query === url || query === "") return;
+
+      for (i = 0; i < pairs.length; i++) {
+          nv = pairs[i].split("=", 2);
+          n = decodeURIComponent(nv[0]);
+          v = decodeURIComponent(nv[1]);
+
+          if (!parms.hasOwnProperty(n)) parms[n] = [];
+          parms[n].push(nv.length === 2 ? v : null);
+      }
+      return parms;
+  }
+  if (window.location.href.indexOf("?") != -1) {
+    var contactData = parseURLParams(window.location.href);
+    var contactEmail = contactData.emailInput;
+    var contactName = contactData.nameInput;
+    var contactMessage = contactData.messageInput;
+    console.log(contactData.emailInput[0]);
+
+      Email.send({
+          Host : "smtp.elasticemail.com",
+          Username : "connor@turbojones.com",
+          Password : "3978b1ef-cbe9-49bb-be0f-9541b532cf62",
+          To : 'connor@turbojones.com',
+          From : "connor@turbojones.com",
+          Subject : "SoftwareLore contact form",
+          Body : contactName + "<br>" + contactMessage + "<br>" + contactEmail
+      }).then(
+          message => alert(message)
+      );
+  }
+</script>
       
     </main>
 
