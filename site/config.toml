@@ -1,4 +1,5 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Homepage"
+title = "Software Lore"
 theme = "ga-hugo-theme"
+description = "In-depth Software Reviews | Giving you all the information you could ever need about software"

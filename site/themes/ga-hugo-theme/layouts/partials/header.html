@@ -10,26 +10,28 @@
     <link rel="stylesheet" type="text/css" href="/css/custom-style.css">
     <script src="/js/custom-js.js" defer></script>
 
-        
-    <title>Software Lore</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width,minimum-scale=1">
 
     <link rel="canonical" href="https://softwarelore.com/" />
 
-    <meta name="description" content="In-depth Software Reviews | Giving you all the information you could ever need about software">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">
+    <!-- Responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Open Graph Protocol http://ogp.me/ -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+    <meta property="og:image" content="{{ if .Params.image }}{{.Site.BaseURL}}/images/{{.Params.image}}{{ else }}{{.Site.BaseURL}}/images/site-logo.png{{ end }}">
+    <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
 
-    <meta property="og:title" content="softwarelore.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://softwarelore.com/" />
-    <!--<meta property="og:image" content="IMGURL HomePage" />-->
-    <meta property="og:description" content="In-depth Software Reviews | Giving you all the information you could ever need about software" />
 
-
-    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
     <meta name="theme-color" content="#454e56">
 </head>
 <body class="dark-theme">
