@@ -1,5 +1,6 @@
-baseurl = "/"
+baseurl = "https://softwarelore.com/"
 languageCode = "en-us"
 title = "Software Lore"
 theme = "ga-hugo-theme"
 description = "In-depth Software Reviews | Giving you all the information you could ever need about software"
+canonical = "https://softwarelore.com/"

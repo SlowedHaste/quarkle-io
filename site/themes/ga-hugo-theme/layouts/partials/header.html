@@ -15,12 +15,10 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width,minimum-scale=1">
 
-    <link rel="canonical" href="https://softwarelore.com/" />
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
-    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
     <!-- Responsive meta tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Open Graph Protocol http://ogp.me/ -->
@@ -51,13 +49,13 @@
         <a href="/" class="nav-item">
             <span>Home</span>
         </a>
-        <a href="/reviews" class="nav-item">
+        <a href="/reviews/" class="nav-item">
             <span></span>Software Reviews</span>
         </a>
-        <a href="/about-us" class="nav-item">
+        <a href="/about-us/" class="nav-item">
             <span></span>What is SoftwareLore?</span>
         </a>
-        <a href="/contact-us" class="nav-item">
+        <a href="/contact-us/" class="nav-item">
             <span></span>Contact Us</span>
         </a>
         <button class="brightness-setting">
