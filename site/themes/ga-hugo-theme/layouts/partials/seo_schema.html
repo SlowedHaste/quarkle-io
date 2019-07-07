@@ -13,7 +13,10 @@
         "inLanguage" : "en-US",
         "author" : "{{ range .Params.Author }}{{ . }}{{ end }}",
         "creator" : "{{ range .Params.Author }}{{ . }}{{ end }}",
-        "publisher": "{{ range .Params.Author }}{{ . }}{{ end }}",
+        "publisher": {
+            "@type": "Organization",
+            "name": "SoftwareLore"
+        },
         "accountablePerson" : "{{ range .Params.Author }}{{ . }}{{ end }}",
         "copyrightHolder" : "{{ range .Params.Author }}{{ . }}{{ end }}",
         "copyrightYear" : "{{ .Date.Format "2006" }}",
@@ -21,6 +24,7 @@
         "dateModified" : "{{ .Date }}",
         "url" : "{{ .Permalink }}",
         "wordCount" : "{{ .Params.WordCount }}",
-        "keywords" : [ {{ if isset .Params "tags" }}{{ range .Params.tags }}"{{ . }}",{{ end }}{{ end }}"blog"]
+        "keywords" : "{{ range .Params.tags }}{{ . }} {{ end }}",
+        "articleBody" : "{{ .PlainWords }}"
     }
 </script>
