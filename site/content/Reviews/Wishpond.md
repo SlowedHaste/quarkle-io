@@ -4,7 +4,6 @@ description: "Get an indepth Wishpond Review. We cover everthing from what it's 
 tags: ["Software", "Review", "Wishpond"]
 categories: ["Software Review"]
 author: ["Austin Jones"]
-thumbnail: "http://localhost:1313/images/Icon-logo.png"
 WordCount: 1811
 date: 2019-07-06T11:14:40-07:00
 type: "Reviews"
