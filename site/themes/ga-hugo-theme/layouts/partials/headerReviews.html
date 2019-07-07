@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta name="generator" content="Hugo 0.53" />
+
+    <link rel="stylesheet" href="https://use.typekit.net/rcr1opg.css">
+    <link rel="stylesheet" type="text/css" href="/designcss.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom-style.css">
+    <script src="/js/custom-js.js" defer></script>
+
+    
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
+    <!-- Responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Open Graph Protocol http://ogp.me/ -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+    <meta property="og:image" content="{{ if .Params.image }}{{.Site.BaseURL}}/images/{{.Params.image}}{{ else }}{{.Site.BaseURL}}/images/site-logo.png{{ end }}">
+    <meta property="og:description" content="SoftwareLore's Reviews | Find The Latest Reviews on Software Products">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+
+
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+    <meta name="theme-color" content="#454e56">
+</head>
+<body class="dark-theme">
+
+<!-- Main Navigation -->
+
+<nav id="main-nav" class="sidenav hide-sm">
+    <a id="logo" href="/">
+        <div class="logo-icon"></div>
+        <span class="logo-title">Soft Lore</span>
+    </a>
+    <div id="mobile-menu">
+        <div class="hamburger"></div>
+        <div class="click-listener"></div>
+    </div>
+    <div class="nav-item-wrapper">
+        <a href="/" class="nav-item">
+            <span>Home</span>
+        </a>
+        <a href="/reviews/" class="nav-item">
+            <span></span>Software Reviews</span>
+        </a>
+        <a href="/about-us/" class="nav-item">
+            <span></span>What is SoftwareLore?</span>
+        </a>
+        <a href="/contact-us/" class="nav-item">
+            <span></span>Contact Us</span>
+        </a>
+        <button class="brightness-setting">
+                <span class="brightness-icon">🌞</span>
+                <div class="tag">Theme Color</div>
+        </button>
+    </div>
+</nav>
+
+<main role="main">
