@@ -6,7 +6,32 @@ categories: ["Software Review"]
 date: 2019-07-06T11:14:40-07:00
 draft: false
 ---
-
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "{{ .Site.BaseURL }}"
+        },
+        "articleSection" : "{{ .Section }}",
+        "name" : "{{ .Title }}",
+        "headline" : "{{ .Title }}",
+        "description" : "{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}",
+        "inLanguage" : "en-US",
+        "author" : "{{ range .Site.Author }}{{ . }}{{ end }}",
+        "creator" : "{{ range .Site.Author }}{{ . }}{{ end }}",
+        "publisher": "{{ range .Site.Author }}{{ . }}{{ end }}",
+        "accountablePerson" : "{{ range .Site.Author }}{{ . }}{{ end }}",
+        "copyrightHolder" : "{{ range .Site.Author }}{{ . }}{{ end }}",
+        "copyrightYear" : "{{ .Date.Format "2006" }}",
+        "datePublished": "{{ .Date }}",
+        "dateModified" : "{{ .Date }}",
+        "url" : "{{ .Permalink }}",
+        "wordCount" : "{{ .WordCount }}",
+        "keywords" : [ {{ if isset .Params "tags" }}{{ range .Params.tags }}"{{ . }}",{{ end }}{{ end }}"Blog" ]
+    }
+</script>
 <article itemscope itemtype="http://schema.org/Article">
 <div class="title-box border-bottom">
                       <h1 itemprop="name headline" id="article-title" class="post-title">
