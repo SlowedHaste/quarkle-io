@@ -4,6 +4,7 @@ description: "Check out our Wishpond Review. We'll go over everything you need t
 tags: ["Software", "Wishpond Review", "Marketing Tool"]
 categories: ["Software Review"]
 author: ["Austin Jones"]
+thumbnail: "http://localhost:1313/images/Icon-logo.png"
 WordCount: 1811
 date: 2019-07-06T11:14:40-07:00
 type: "Reviews"
@@ -13,11 +14,11 @@ draft: false
 
 <article>
     <div class="title-box border-bottom">
-                          <h1 id="article-title" class="post-title">
-                              Wishpond Review
-                          </h1>
-                          <span id="article-sub-title">Wishpond - Marketing Tool Suite | Creating and managing lead generation and sales pitching</span>
-                        </div>
+        <h1 id="article-title" class="post-title">
+            Wishpond Review
+        </h1>
+        <span id="article-sub-title">Wishpond - Marketing Tool Suite | Creating and managing lead generation and sales pitching</span>
+    </div>
                         
                       
                       

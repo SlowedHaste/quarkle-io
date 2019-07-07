@@ -67,5 +67,32 @@
   </div>
   
 </div>
+<hr style="margin-bottom: 2em;">
+<div id="article-list">
+     {{ range .Pages }}
+        {{ if in .Params.categories "Software Review"}}
+          <a href="{{.URL}}" class="article-box">
+               <div class="article-image">
+                    <div>
+                         <img src="{{ .Params.thumbnail }}" alt="{{ .Title }} Thumbnail">
+                    </div>
+               </div>
+               <div class="article-details">
+                    <div class="post-title">
+                         <div>{{.Title}}</div>
+                    </div>
+                    <div class="post-details">
+                         <span class="post-date">{{ if .Params.date }} {{ dateFormat "Jan 2, 2006" .Params.date }} {{ else }} "No Post Date" {{end}}</span>
+                         | <span class="post-author">{{ if .Params.Author }} {{ range .Params.Author }}  {{ . }} {{ end }} {{ else }} "No Post Author" {{end}}</span>
+                    </div>
+                    <div class="post-description">{{ if .Params.description }} {{ .Params.description }} {{ else }} "No Description" {{ end }}</div>
+               </div>
+               <div class="article-button">
+                    <div class="read-more">Read More</div>
+               </div>
+          </a>
+          {{ end }}
+     {{ end }}
+</div>
 
 {{ partial "footer" . }}

@@ -2,38 +2,26 @@
 {{ .Content }}
 <div id="article-list">
      {{ range .Pages }}
-     <!-- <div style="border: 1px solid black; margin:10px; padding:10px; ">
-          <div style="font-size:20px;">
-               <a href="{{.URL}}">{{.Title}}</a>
-          </div>
-          <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
-          <div style="color:grey; font-size:16px;">{{ if .Params.tags }}<strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
-          <div style="color:grey; font-size:16px;">{{ if .Params.categories }}<strong>Categories:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
-          <div style="color:grey; font-size:16px;">{{ if .Params.moods }}<strong>Moods:</strong> {{range .Params.moods}}<a href="{{ "/moods/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
-     
-          <p style="font-size:18px;">{{.Summary}}</p>
-     </div> -->
-
-     <div class="article-box">
-          <div class="article-image">
-               <a href="{{.URL}}">
-                    <img src="{{ .Params.thumbnail }}" alt="{{ .Title }} Thumbnail">
-               </a>
-          </div>
-          <div class="article-details">
-               <div class="post-title">
-                    <a href="{{.URL}}">{{.Title}}</a>
+          <a href="{{.URL}}" class="article-box">
+               <div class="article-image">
+                    <div>
+                         <img src="{{ .Params.thumbnail }}" alt="{{ .Title }} Thumbnail">
+                    </div>
                </div>
-               <div class="post-details">
-                    <span class="post-date">{{ if .Params.date }} {{ dateFormat "Jan 2, 2006" .Params.date }} {{ else }} "No Post Date" {{end}}</span>
-                    | <span class="post-date">{{ if .Params.Author }} {{ range .Params.Author }}  {{ . }} {{ end }} {{ else }} "No Post Author" {{end}}</span>
+               <div class="article-details">
+                    <div class="post-title">
+                         <div>{{.Title}}</div>
+                    </div>
+                    <div class="post-details">
+                         <span class="post-date">{{ if .Params.date }} {{ dateFormat "Jan 2, 2006" .Params.date }} {{ else }} "No Post Date" {{end}}</span>
+                         | <span class="post-author">{{ if .Params.Author }} {{ range .Params.Author }}  {{ . }} {{ end }} {{ else }} "No Post Author" {{end}}</span>
+                    </div>
+                    <div class="post-description">{{ if .Params.description }} {{ .Params.description }} {{ else }} "No Description" {{ end }}</div>
                </div>
-               <div class="post-description">{{ if .Params.description }} {{ .Params.description }} {{ else }} "No Description" {{ end }}</div>
-          </div>
-          <div class="article-button">
-               <a href="{{.URL}}" class="read-more">Read More</a>
-          </div>
-     </div>
+               <div class="article-button">
+                    <div class="read-more">Read More</div>
+               </div>
+          </a>
      {{ end }}
 </div>
 {{ partial "footer" . }}

@@ -7,6 +7,10 @@ footer {
     width: 100%;
 }
 
+:root {
+    --sl-color: #16a191;
+}
+
 // Main Navigation
 
 #main-nav.sidenav {
@@ -51,6 +55,7 @@ footer {
     height: 70px;
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 .nav-item {
     display: inline-block;
@@ -99,7 +104,7 @@ footer {
 
 // LEFT SECTION
 #home-top-section {
-    margin: 8em 2em 6em 2em;
+    margin: 3em 2em;
 }
 #search {
     position: relative;
@@ -509,6 +514,9 @@ footer {
 // List of Articles
 #article-list {
     display: flex;
+    max-width: 1720px;
+    box-sizing: border-box;
+    margin: 0 auto;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -523,10 +531,10 @@ footer {
     box-sizing: border-box;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,.4);
-    transition: bottom .5s ease-out, box-shadow .5s ease-out;
+    transition: bottom .3s ease-out, box-shadow .3s ease-out;
     &:hover {
-        bottom: 10px;
-        box-shadow: 0 14px 8px rgba(0,0,0,.4);
+        bottom: 5px;
+        box-shadow: 0 9px 8px rgba(0,0,0,.4);
     }
     .article-image {
         display: block;
@@ -534,12 +542,34 @@ footer {
         width: 100%;
     }
     .post-title {
+        color: #fff;
         font-size: 30px;
         font-weight: bold;
         margin: 1em auto .2em;
         padding: 0;
         a {
             color: #fff;
+        }
+    }
+    .post-details {
+        margin-bottom: 12px;
+        color: var(--text-color);
+    }
+    .post-description {
+        color: var(--text-color);
+    }
+    .article-button {
+        display: block;
+        width: 100%;
+        margin-top: 25px;
+        .read-more {
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+            background-color: var(--sl-color);
+            border-radius: 3px;
+            color: #fff;
+            text-decoration: none;
         }
     }
 }
