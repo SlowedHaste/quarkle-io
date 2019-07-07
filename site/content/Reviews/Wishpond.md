@@ -1,6 +1,6 @@
 ---
 title: "Wishpond Review"
-description: "Check out our review of Wishpond. We'll go over everything you need to know about this awesome marketing tool suite. All up to date and in an easy to read format."
+description: "Check out our Wishpond Review. We'll go over everything you need to know about this marketing tool suite. All up to date and in an easy to read format."
 tags: ["Software", "Wishpond Review", "Marketing Tool"]
 categories: ["Software Review"]
 author: ["Austin Jones"]
