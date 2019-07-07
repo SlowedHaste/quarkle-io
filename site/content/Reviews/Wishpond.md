@@ -4,7 +4,7 @@ description: "Check out our Wishpond Review. We'll go over everything you need t
 tags: ["Software", "Wishpond Review", "Marketing Tool"]
 categories: ["Software Review"]
 author: ["Austin Jones"]
-thumbnail: "http://localhost:1313/images/Icon-logo.png"
+thumbnail: "https://softwarelore.com/images/Icon-logo.png"
 WordCount: 1811
 date: 2019-07-06T11:14:40-07:00
 type: "Reviews"
