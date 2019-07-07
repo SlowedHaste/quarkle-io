@@ -13,7 +13,10 @@
         "inLanguage" : "en-US",
         "author" : "{{ range .Params.Author }}{{ . }}{{ end }}",
         "creator" : "{{ range .Params.Author }}{{ . }}{{ end }}",
-        "publisher": "{{ range .Params.Author }}{{ . }}{{ end }}",
+        "publisher": {
+            "@type": "Person",
+            "name": "{{ range .Params.Author }}{{ . }}{{ end }}"
+        },
         "accountablePerson" : "{{ range .Params.Author }}{{ . }}{{ end }}",
         "copyrightHolder" : "{{ range .Params.Author }}{{ . }}{{ end }}",
         "copyrightYear" : "{{ .Date.Format "2006" }}",
