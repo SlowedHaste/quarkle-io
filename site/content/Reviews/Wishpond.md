@@ -8,10 +8,6 @@ draft: false
 ---
 
 <article itemscope itemtype="http://schema.org/Article">
-                    <meta itemprop="datePublished" content="2019-06-23 06:44:00 -0700 -0700" />
-                    <meta itemprop="dateModified" content="2019-06-23 06:44:00 -0700 -0700" />
-                    <meta itemprop="image" content="img/featured.png" />
-                    <meta itemprop="publisher" content="softwarelore.com" />
 <div class="title-box border-bottom">
                       <h1 itemprop="name headline" id="article-title" class="post-title">
                           Wishpond Review
