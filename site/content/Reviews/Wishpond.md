@@ -272,7 +272,7 @@ draft: false
     <ul>
     <li>
     <ul>
-    <li class="title"><span>Wishpond</span
+    <li class="title"><span>Wishpond</span></li>
     <ul>
     <li class="price"><span><strong>Price:</strong> $49 - $200 per Month</span></li>
     <li class="trial-demo"><span><strong>Free Trial/Demo:</strong> 14 Day Free Trial</span></li>
