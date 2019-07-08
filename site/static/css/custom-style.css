@@ -464,7 +464,7 @@ footer {
     box-shadow: 0 9px 8px rgba(0, 0, 0, 0.4); }
   .article-box .article-image {
     display: block;
-    background-color: #fff;
+    background-color: #12181b;
     width: 100%; }
   .article-box .post-title {
     color: #fff;
@@ -485,12 +485,19 @@ footer {
     margin-top: 25px; }
     .article-box .article-button .read-more {
       display: block;
+      position: relative;
+      bottom: 0;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
       width: 100%;
       padding: 10px 0;
       background-color: var(--sl-color);
       border-radius: 3px;
       color: #fff;
-      text-decoration: none; }
+      text-decoration: none;
+      transition: bottom .3s ease-out, box-shadow .3s ease-out; }
+      .article-box .article-button .read-more:hover {
+        bottom: 5px;
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4); }
 
 @media screen and (max-width: 1024px) {
   #home-top-section {

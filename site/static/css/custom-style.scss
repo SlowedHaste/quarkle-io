@@ -538,7 +538,7 @@ footer {
     }
     .article-image {
         display: block;
-        background-color: #fff;
+        background-color: #12181b;
         width: 100%;
     }
     .post-title {
@@ -564,12 +564,20 @@ footer {
         margin-top: 25px;
         .read-more {
             display: block;
+            position: relative;
+            bottom: 0;
+            box-shadow: 0 0 8px rgba(0,0,0,.4);
             width: 100%;
             padding: 10px 0;
             background-color: var(--sl-color);
             border-radius: 3px;
             color: #fff;
             text-decoration: none;
+            transition: bottom .3s ease-out, box-shadow .3s ease-out;
+            &:hover {
+                bottom: 5px;
+                box-shadow: 0 5px 8px rgba(0,0,0,.4);
+            }
         }
     }
 }
