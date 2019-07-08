@@ -107,23 +107,29 @@ draft: false
     
     <p>Wishpond is a marketing tool suite. It contains a variety of different tools to help you with your marketing needs. These tools include the following:</p>
     
-    <ul>
-    <li>Landing Page Designer</li>
-    <li>Popups & Form Creator</li>
-    <li>Contests & Promotion Campaign</li>
-    <li>Marketing Automation</li>
-    </li>
-    </ul>
+    <p>✔️ Landing Page Designer</p>
+    <p>✔️ Popups & Form Creator</p>
+    <p>✔️ Contests & Promotion Campaign</p>
+    <p>✔️ Marketing Automation</p>
     
-    <p>The main purpose of these tools is to help create and capture user information for lead purposes. The general idea behind marketing and lead capturing is to create a Landing page, a popup, or a contest in order to get the users attention and to submit their contact information. With this contact information, it is then used to promote a product or service. This is usually done through email, which is where the Marketing Automation tool comes in.
+
+
+    <div class="box box-blue">
+    <div class="box-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="scroll-old" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svgscroll-old  "><path fill="currentColor" d="M48 0C21.53 0 0 21.53 0 48v64c0 8.84 7.16 16 16 16h80V48C96 21.53 74.47 0 48 0zm208 412.57V352h288v-57.37c0-4.24-1.69-8.31-4.69-11.31L512 256l27.31-27.31c3-3 4.69-7.07 4.69-11.31v-50.75c0-4.24-1.69-8.31-4.69-11.31L512 128l26.86-26.86c3.27-3.27 5.21-7.84 4.86-12.45C539.98 39.15 498.48 0 448 0H111.59C121.74 13.41 128 29.92 128 48v137.37c0 4.24 1.69 8.31 4.69 11.31L160 224l-27.31 27.31c-3 3-4.69 7.07-4.69 11.31V416c0 38.87 34.65 69.65 74.75 63.12C234.22 474 256 444.46 256 412.57zm187.31-23.88L416 416l-27.31-27.31c-3-3-7.07-4.69-11.31-4.69H288v32c0 52.93-43.06 96-96 96h336c61.86 0 112-50.14 112-112 0-8.84-7.16-16-16-16H454.63c-4.25 0-8.32 1.69-11.32 4.69z"></path></svg></div>
+    <div class="box-content">
+        <p>The main purpose of these tools is to help create and capture user information for lead purposes. The general idea behind marketing and lead capturing is to create a Landing page, a popup, or a contest in order to get the users attention and to submit their contact information. With this contact information, it is then used to promote a product or service. This is usually done through email, which is where the Marketing Automation tool comes in.
     </p>
+    </div>
+      
+</div>
+
     
     <hr />
     <h3 id="features">Features</h3>
     <p>Breaking this down into each tool included in Wishpond goes sort of like this:</p>
     
     <div class="file-name">
-     <span style="font-size: 18px; font-weight: bold; font-style: italic">Landing Page Designer</span>
+     <span style="font-size: 18px; font-weight: bold; font-style: italic">🔷 Landing Page Designer</span>
     </div>
     <div class="highlight"><p>This tool allows the user to create and design their own landing page through an easy to use drag and drop builder. But a good looking landing page is not the only detail you need to obtain success if you’re looking to start a great marketing campaign. Optimization and conversion rates are critical when it comes to building a landing page. And those are the two stats that matter most. <p>
     
@@ -131,23 +137,27 @@ draft: false
     <p>Along with the designer comes a great A/B split testing suite. So that you can start testing different landing page designs, to figure out which works best for your marketing campaign.
     </p>
     <p>This is most likely the first core tool you will be using if you decide to use Wishpond’s marketing tool suite.</p>
+
+<img src="/wishpond/LandingPageCreator.png" alt="Wishpond's landing page designer screen" />
+
+
     </div>
     <br>
     
     <div class="file-name">
-     <span style="font-size: 18px; font-weight: bold; font-style: italic">Popup & Form Creator</span>
+     <span style="font-size: 18px; font-weight: bold; font-style: italic">🔷 Popup & Form Creator</span>
     </div>
     <div class="highlight">
     <p>The next tool in Wishpond’s tool suite is their Popup & Form Creator. This tool is somewhat similar to the Landing Page Designer outlined above. The main purpose of this tool is to help create popups and forms for the user to enter their information. <p>
     
     <p>The differentiating factor with a popup or form is that it can be placed on a normal page. Whether that be a blog post or any other type of page. This is important, especially when it comes to marketing a website, as landing pages only get you so far in advertising. Blog posts and articles can help you turn organic searches into powerful contact leads. </p>
     <p>This again comes with the A/B Testing suite to help make sure you can easily optimize your forms and conversion rates.</p>
-    
+    <img src="/wishpond/PopupCreator.png" alt="Wishpond's landing page designer screen" />
     </div>
     <br>
     
     <div class="file-name">
-     <span style="font-size: 18px; font-weight: bold; font-style: italic">Contests & Promotion Campaigns</span>
+     <span style="font-size: 18px; font-weight: bold; font-style: italic">🔷 Contests & Promotion Campaigns</span>
     </div>
     <div class="highlight">
     <p>Another very successful avenue for gaining impactful leads, are Contests and Promotions. With this Wishpond tool, you will be able to easily create your own contest to promote to your viewers. <p>
@@ -167,17 +177,19 @@ draft: false
     </ul>
     
     <p>With this variety of contests and promotions, you will easily be able to create your own custom campaign. </p>
+    <img src="/wishpond/ContestCreator.png" alt="Wishpond's landing page designer screen" />
     </div>
     <br>
     
     <div class="file-name">
-     <span style="font-size: 18px; font-weight: bold; font-style: italic">Marketing Automation</span>
+     <span style="font-size: 18px; font-weight: bold; font-style: italic">🔷 Marketing Automation</span>
     </div>
     <div class="highlight">
     <p>The last tool in Wishpond’s arsenal, is also the last logical step in marketing: reaching and advertising to your leads. All of the above tools focus on capturing valuable leads in order to then turn them into sales. Converting those leads to sales can be an especially challenging task. But that’s where the Marketing Automation tool steps in to help. <p>
     
     <p>The Marketing Automation tool allows you to send personalized email campaigns directly to your leads based on a variety of different factors, like demographics and activity. Using this information will allow you to target an audience with much more precision, therefore increasing your conversion rate by a TON. </p>
     <p>All in all, the marketing automation tool has a lot to offer when it comes to converting leads. Each email is tracked and sent to a proper queue. You can easily send any specific emails or queues over to a lead specialist or mark them as a “hot lead”. You can even automate actions for apps you already use! Wishpond allows you to integrate with a ton of different providers such as Aweber, MailChimp, Active Campaign, Survey Monkey and more!</p>
+    <img src="/wishpond/MailAutomation.png" alt="Wishpond's landing page designer screen" />
     </div>
     <br>
     
@@ -197,11 +209,11 @@ draft: false
     <p>Here is an example of a logical lead generation and sales plan:</p>
     
     <ol>
-    <li>User visits a Landing Page or Popup</li>
-    <li>The user inputs their email and name, usually in exchange for some benefit (this could be a coupon, or a new article, or something else)</li>
-    <li>Using this information you build rapport with the user through useful information</li>
-    <li>Once rapport has been built, you start selling them on your product or service</li>
-    <li>$$$ Profit from sale generated</li>
+    <li>🔎 User visits a Landing Page or Popup</li>
+    <li>✏️ The user inputs their email and name, usually in exchange for some benefit (this could be a coupon, or a new article, or something else)</li>
+    <li>❤️ Using this information you build rapport with the user through useful information</li>
+    <li>📰 Once rapport has been built, you start selling them on your product or service</li>
+    <li>💲 $$$ Profit from sale generated</li>
     </ol>
     
     <h3 id="benefits">Benefits</h3>
@@ -222,6 +234,8 @@ draft: false
     <p>The popup and form creator was a great addition to easily put up a form; But it’s a rather easy task, so there's nothing much special here, except for the ease of integration with the other tools.</p>
     <p>The Marketing Automation tool really brought the tool suite together. Without it, I would say you’re much better off going with a specialized landing page designer; But I had a great time being able to easily switch over from lead generation to sales pitching. The automation was seamless and worked wonders.</p>
     
+    <img src="/wishpond/Leads.png" alt="Wishpond's landing page designer screen" />
+    
     <h3 id="whofor">Who Is It For?</h3>
     
     <p>If you are looking to either start your lead generation and sales pitching or trying to simplify your already existing marketing plan; I would highly suggest using Wishpond. </p>
@@ -229,15 +243,11 @@ draft: false
     <p>That being said, I would say its also good for advanced users as well. In fact, the only users I would not recommend to use Wishpond are larger companies who need the BEST of the best of each type of tool.</p>
     
     <p><b>Great For:</b></p>
-    <ul>
-    <li>Beginners + Advanced Users</li>
-    <li>Those looking to simplify their lead generation funnel</li>
-    </ul>
+    <p>✔️ Beginners + Advanced Users</p>
+    <p>✔️ Those looking to simplify their lead generation funnel</p>
     
     <p><b>Not For:</b></p>
-    <ul>
-    <li>Larger companies looking for the top rated landing page designer, or marketing automation tool.</li>
-    </ul>
+    <p>❌ Larger companies looking for the top rated landing page designer, or marketing automation tool.</p>
     
     <h3 id="summary">Summary</h3>
     <ul>
@@ -268,20 +278,57 @@ draft: false
     </section>
     
     
-    <aside class="toc"><nav id="TableOfContents">
+<aside class="toc"><nav id="TableOfContents">
     <ul>
     <li>
     <ul>
-    <li class="title"><span>Wishpond</span
+    <li class="title"><span>Wishpond</span></li>
     <ul>
     <li class="price"><span><strong>Price:</strong> $49 - $200 per Month</span></li>
     <li class="trial-demo"><span><strong>Free Trial/Demo:</strong> 14 Day Free Trial</span></li>
     <li class="type"><span><strong>Type:</strong> Marketing / SaaS</span></li>
     <li class="sl-score"><span><strong>Rating:</strong> 90 / 100</span></li>
-    <li class="link-button"><a class="btn" href="https://geni.us/WishPond">View Wishpond</a></li>
-    <li class="summary"><span><strong>Company Details:</strong> Today we're going to be taking a look at Wishpond. It's a marketing tool suite which will help you create or optimize your lead generation and sales pitch funnel. We'll be going over everything you will need to know about this software suite, so that you can decide if it's right for you.</span></li>
+    <li class="link-button"><a class="btn" href="https://geni.us/WishPond">Wishpond</a></li>
+    <li class="summary"><span>   
+    <span style="font-size: 21px;color: white;font-weight: 700;">Overall Score:</span><span> 85 / 100</span>
+    <div class="stat-1 stat-bar" style="margin-top: 10px">
+        <span class="stat-bar-rating" role="stat-bar" style="width: 90%;">85%</span>
+    </div> </span> 
+
+<div style="padding-top: 10px">
+    <span style="font-size: 21px;color: white;font-weight: 700; padding-top: 20px">User Interface:</span><span> 70 / 100</span>
+    <div class="stat-2 stat-bar" style="margin-top: 10px">
+        <span class="stat-bar-rating" role="stat-bar" style="width: 70%;">90%</span>
+    </div> </span> 
+</div>
+
+<div style="padding-top: 10px">
+    <span style="font-size: 21px;color: white;font-weight: 700; padding-top: 20px">Pricing:</span><span> 90 / 100</span>
+    <div class="stat-2 stat-bar" style="margin-top: 10px">
+        <span class="stat-bar-rating" role="stat-bar" style="width: 90%;">90%</span>
+    </div> </span> 
+</div>
+
+<div style="padding-top: 10px">
+    <span style="font-size: 21px;color: white;font-weight: 700; padding-top: 20px">Functionality:</span><span> 95 / 100</span>
+    <div class="stat-3 stat-bar" style="margin-top: 10px">
+        <span class="stat-bar-rating" role="stat-bar" style="width: 95%;">95%</span>
+    </div> </span> 
+</div>
+
+<div style="padding-top: 10px">
+    <span style="font-size: 21px;color: white;font-weight: 700; padding-top: 20px">Experience:</span><span> 85 / 100</span>
+    <div class="stat-3 stat-bar" style="margin-top: 10px">
+        <span class="stat-bar-rating" role="stat-bar" style="width: 85%;">85%</span>
+    </div> </span> 
+</div>
+
+
+    </li>
     </ul></li>
     </ul>
+ 
+
      </nav></aside>
                           
      </div>
