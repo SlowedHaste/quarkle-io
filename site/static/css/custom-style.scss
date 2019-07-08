@@ -168,12 +168,13 @@ $bars: 3;
 #logo {
     margin-right: 15px;
     height: 70px;
-    width: 70px;
-    background: #2aa88a; /* Old browsers */
-    background: -moz-linear-gradient(-45deg,  #2aa88a 1%, #009999 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg,  #2aa88a 1%,#009999 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg,  #2aa88a 1%,#009999 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2aa88a', endColorstr='#009999',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    padding-left: 5px;
+    width: 200px;
+    background: #e69f09; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #e69f09 1%, #ca7506 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #e69f09 1%,#ca7506 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #e69f09 1%,#ca7506 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e69f09', endColorstr='#ca7506',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     
     transition: background .5s ease-out;
     
@@ -184,12 +185,13 @@ $bars: 3;
     align-content: center;
     .logo-icon {
         font-size: 1.2em;
-        background-image: url("../images/Icon-logo.png");
+        background-image: url("../images/Robot-Logo.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
-        height: 40px;
+        height: 70%;
+        margin-bottom: 4px;
     }
     span {
         font-size: 11px;
@@ -197,7 +199,7 @@ $bars: 3;
         text-decoration: none;
     }
     &:hover {
-        background: #ce8210;
+        background: var(--sl-color);//var(--sl-color)
     }
 }
 .nav-item-wrapper {
@@ -772,6 +774,7 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
+    
     //Top Section
     #home-top-section {
         margin-top: 5em;
@@ -799,9 +802,10 @@ footer {
             }
         }
     }
-    //Nav 
+    // Nav 
     .nav-item {
-        font-size: 18px;
+        font-size: 16px;
+        padding: 27px 10px;
     }
 }
 @media screen and (max-width: 991px) {
