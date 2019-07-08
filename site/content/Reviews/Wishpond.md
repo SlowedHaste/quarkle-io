@@ -272,13 +272,14 @@ draft: false
     <ul>
     <li>
     <ul>
-    <li><span>Wishpond</span
+    <li class="title"><span>Wishpond</span
     <ul>
-    <li><span>Price: $49 - $200 per Month</span></li>
-    <li><span>Free Trial/Demo: 14 Day Free Trial</span></li>
-    <li><span>Type: Marketing / SaaS</span></li>
-    <li><span>Rating: 90 / 100</span></li>
-    <li><a class="btn" href="https://geni.us/WishPond">View Wishpond</a></li>
+    <li class="price"><span><strong>Price:</strong> $49 - $200 per Month</span></li>
+    <li class="trial-demo"><span><strong>Free Trial/Demo:</strong> 14 Day Free Trial</span></li>
+    <li class="type"><span><strong>Type:</strong> Marketing / SaaS</span></li>
+    <li class="sl-score"><span><strong>Rating:</strong> 90 / 100</span></li>
+    <li class="link-button"><a class="btn" href="https://geni.us/WishPond">View Wishpond</a></li>
+    <li class="summary"><span><strong>Company Details:</strong> Today we're going to be taking a look at Wishpond. It's a marketing tool suite which will help you create or optimize your lead generation and sales pitch funnel. We'll be going over everything you will need to know about this software suite, so that you can decide if it's right for you.</span></li>
     </ul></li>
     </ul>
      </nav></aside>
