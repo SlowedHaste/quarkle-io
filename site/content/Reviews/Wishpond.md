@@ -272,28 +272,13 @@ draft: false
     <ul>
     <li>
     <ul>
-    <li><a href="#live-demo">Live Demo</a></li>
-    <li><a href="#initial-setup">Initial Setup</a>
+    <li><span>Wishpond</span
     <ul>
-    <li><a href="#paypal-credentials">PayPal Credentials</a></li>
-    <li><a href="#testing">Testing</a></li>
-    </ul></li>
-    <li><a href="#angular">Angular</a>
-    <ul>
-    <li><a href="#generate-the-app">Generate the App</a></li>
-    <li><a href="#add-the-paypal-script-tag">Add the PayPal Script Tag</a></li>
-    <li><a href="#payment-component">Payment Component</a></li>
-    </ul></li>
-    <li><a href="#react">React</a>
-    <ul>
-    <li><a href="#generate-the-app-1">Generate the App</a></li>
-    <li><a href="#payment-component-1">Payment Component</a></li>
-    </ul></li>
-    <li><a href="#vue">Vue</a>
-    <ul>
-    <li><a href="#generate-the-app-2">Generate the App</a></li>
-    <li><a href="#payment-component-2">Payment Component</a></li>
-    </ul></li>
+    <li><span>Price: $49 - $200 per Month</span></li>
+    <li><span>Free Trial/Demo: 14 Day Free Trial</span></li>
+    <li><span>Type: Marketing / SaaS</span></li>
+    <li><span>Rating: 90 / 100</span></li>
+    <li><a class="btn" href="https://geni.us/WishPond">View Wishpond</a></li>
     </ul></li>
     </ul>
      </nav></aside>
