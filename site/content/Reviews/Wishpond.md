@@ -273,7 +273,38 @@ draft: false
     </ul>
     
     <h2 id="score">Wishpond Score</h2>
-    <p id="score2"> 90 / 100 - Lore Score</p>
+       <span style="font-size: 21px;color: white;font-weight: 700;">Overall Score:</span><span> 85 / 100</span>
+    <div class="stat-1 stat-bar" style="margin-top: 10px">
+        <span class="stat-bar-rating" role="stat-bar" style="width: 90%;">85%</span>
+    </div> </span> 
+
+<div style="padding-top: 10px">
+    <span style="font-size: 21px;color: white;font-weight: 700; padding-top: 20px">User Interface:</span><span> 70 / 100</span>
+    <div class="stat-2 stat-bar" style="margin-top: 10px">
+        <span class="stat-bar-rating" role="stat-bar" style="width: 70%;">90%</span>
+    </div> </span> 
+</div>
+
+<div style="padding-top: 10px">
+    <span style="font-size: 21px;color: white;font-weight: 700; padding-top: 20px">Pricing:</span><span> 90 / 100</span>
+    <div class="stat-2 stat-bar" style="margin-top: 10px">
+        <span class="stat-bar-rating" role="stat-bar" style="width: 90%;">90%</span>
+    </div> </span> 
+</div>
+
+<div style="padding-top: 10px">
+    <span style="font-size: 21px;color: white;font-weight: 700; padding-top: 20px">Functionality:</span><span> 95 / 100</span>
+    <div class="stat-3 stat-bar" style="margin-top: 10px">
+        <span class="stat-bar-rating" role="stat-bar" style="width: 95%;">95%</span>
+    </div> </span> 
+</div>
+
+<div style="padding-top: 10px">
+    <span style="font-size: 21px;color: white;font-weight: 700; padding-top: 20px">Experience:</span><span> 85 / 100</span>
+    <div class="stat-3 stat-bar" style="margin-top: 10px">
+        <span class="stat-bar-rating" role="stat-bar" style="width: 85%;">85%</span>
+    </div> </span> 
+</div>
     
     </section>
     
