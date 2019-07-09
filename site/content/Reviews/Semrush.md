@@ -4,7 +4,7 @@ description: "Check out our Semrush Review. We'll go over everything you need to
 tags: ["Software", "Semrush Review", "SEO Tool"]
 categories: ["Software Review"]
 author: ["Austin Jones"]
-thumbnail: "https://softwarelore.com/images/Icon-logo.png"
+thumbnail: "https://softwarelore.com/images/SemrushThumbnailSmall.jpg"
 WordCount: 4750
 date: 2019-07-07T11:14:40-07:00
 type: "Reviews"
@@ -32,13 +32,13 @@ draft: false
 <iframe
 width="800"
 height="450"
-src="https://www.youtube.com/embed/AtZGoueL4Vs"
+src="https://www.youtube.com/embed/jB7cBNwCuEU"
 frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen
 ></iframe>
 
-<meta itemprop="embedUrl" content="https://www.youtube.com/embed/AtZGoueL4Vs" />
+<meta itemprop="embedUrl" content="https://www.youtube.com/embed/jB7cBNwCuEU" />
 <meta itemprop="thumbnailUrl" content="" />
 <meta itemprop="description" content="Accept PayPal Checkout payments with Angular, React, or Vue" />
 <meta itemprop="uploadDate" content="2019-06-23 06:44:00 -0700 -0700" />
@@ -468,7 +468,7 @@ allowfullscreen
     <li class="trial-demo"><span><strong>Free Trial/Demo:</strong> Free Trial</span></li>
     <li class="type"><span><strong>Type:</strong> SEO / SaaS</span></li>
     <li class="sl-score"><span><strong>Rating:</strong> 95 / 100</span></li>
-    <li class="link-button"><a class="btn" href="https://geni.us/WishPond">View Semrush</a></li>
+    <li class="link-button"><a class="btn" href="https://geni.us/SemRush">View Semrush</a></li>
     <li class="summary"><span>   
     <span style="font-size: 21px;color: white;font-weight: 700;">Overall Score:</span><span> 95 / 100</span>
     <div class="stat-1 stat-bar" style="margin-top: 10px">
