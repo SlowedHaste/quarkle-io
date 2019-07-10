@@ -1,5 +1,5 @@
 ---
-title: "Semrush Review"
+title: "Semrush Review 2019 - Ultimate Review & Guide"
 description: "Check out our Semrush Review. We'll go over everything you need to know about this SEO tool suite. All up to date and in an easy to read format."
 tags: ["Software", "Semrush Review", "SEO Tool"]
 categories: ["Software Review"]
