@@ -1,5 +1,5 @@
 ---
-title: "Wishpond Review 2019 - Complete Review & Video"
+title: "Wishpond Review"
 description: "Check out our Wishpond Review. We'll go over everything you need to know about this marketing tool suite. All up to date and in an easy to read format."
 tags: ["Software", "Wishpond Review", "Marketing Tool"]
 categories: ["Software Review"]
