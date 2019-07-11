@@ -200,7 +200,7 @@ draft: false
         <li>LogoMakr</li>
     </ul>
 
-    <h2 id="score">Webflow Score: B+</h2>
+    <h2 id="score">DesignEvo Score: B+</h2>
        <span id="score2" style="font-size: 21px;color: white;font-weight: 700;">Overall Score:</span><span> 87.5 / 100</span>
     <div class="stat-1 stat-bar" style="margin-top: 10px">
         <span class="stat-bar-rating" role="stat-bar" style="width: 87.5%;">87.5%</span>
@@ -241,13 +241,13 @@ draft: false
     <ul>
     <li>
     <ul>
-    <li class="title"><span>Webflow</span></li>
+    <li class="title"><span>DesignEvo</span></li>
     <ul>
     <li class="price"><span><strong>Price:</strong> Free - $36 per Month</span></li>
     <li class="trial-demo"><span><strong>Free Trial/Demo:</strong> Free Designer</span></li>
     <li class="type"><span><strong>Type:</strong> Web Design Tool / CMS</span></li>
     <li class="sl-score"><span><strong>Rating:</strong> B+ 87.5 / 100</span></li>
-    <li class="link-button"><a class="btn" href="https://geni.us/WebFlow">Webflow</a></li>
+    <li class="link-button"><a class="btn" href="https://geni.us/DesignEvo">DesignEvo</a></li>
     <li class="summary"><span>   
         <span style="font-size: 21px;color: white;font-weight: 700;">Overall Score:</span><span> 87.5 / 100</span>
         <div class="stat-1 stat-bar" style="margin-top: 10px">
