@@ -72,8 +72,6 @@ draft: false
     <li class="inline-list"><a href="#about">About MyVideoSpy</a>
     <ul>
     <li><a href="#description">Description</a></li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#additional">Additional</a></li>
     </ul></li>
     <li class="inline-list"><a href="#whatsgood">What's It Good For?</a>
     <ul>
@@ -84,13 +82,7 @@ draft: false
     <li class="inline-list"><a href="#review">Review</a>
     <ul>
     <li><a href="#experience">My Experience</a></li>
-    <li><a href="#whofor">Who is it for?</a></li>
     <li><a href="#summary">Summary</a></li>
-    </ul></li>
-    <li class="inline-list"><a href="#alternatives">Alternatives</a>
-    <ul>
-    <li><a href="#landingpages">Landing Pagese</a></li>
-    <li><a href="#marketingautomation">Marketing Automation</a></li>
     </ul></li>
     <li class="inline-list"><a href="#score">Score</a>
     <ul>
@@ -204,7 +196,7 @@ draft: false
     <p>Overall, a very solid product.</p>
     
     <h2 id="score">MyVideoSpy Score</h2>
-        <span style="font-size: 21px;color: white;font-weight: 700;">Overall Score:</span><span> 84 / 100</span>
+        <span id="score2" style="font-size: 21px;color: white;font-weight: 700;">Overall Score:</span><span> 84 / 100</span>
     <div class="stat-1 stat-bar" style="margin-top: 10px">
         <span class="stat-bar-rating" role="stat-bar" style="width: 84%;">84%</span>
     </div> </span> 
