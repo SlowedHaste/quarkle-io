@@ -32,13 +32,13 @@ draft: false
     <iframe
     width="800"
     height="450"
-    src="https://www.youtube.com/embed/kl6F9ERTh9w"
+    src="https://www.youtube.com/embed/G2y_tnC0VRI"
     frameborder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
     ></iframe>
     
-    <meta itemprop="embedUrl" content="https://www.youtube.com/embed/kl6F9ERTh9w" />
+    <meta itemprop="embedUrl" content="https://www.youtube.com/embed/G2y_tnC0VRI" />
     <meta itemprop="thumbnailUrl" content="" />
     <meta itemprop="description" content="Accept PayPal Checkout payments with Angular, React, or Vue" />
     <meta itemprop="uploadDate" content="2019-06-23 06:44:00 -0700 -0700" />
