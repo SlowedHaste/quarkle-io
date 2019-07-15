@@ -224,6 +224,7 @@ footer {
 
 #home-top-right {
   display: flex;
+  display: none;
   justify-content: center; }
 
 .category-wrapper {
